@@ -351,3 +351,64 @@ MigrationBackup/
 
 # Rider innecesary folder
 .idea/
+
+
+#ANGULAR FILES IGNORES
+
+.DS_STORE
+
+FETarjetaCredito/dist/
+FETarjetaCredito/bazel-out
+FETarjetaCredito/integration/bazel/bazel-*
+*.log
+node_modules
+
+# Include when developing application packages.
+pubspec.lock
+FETarjetaCredito/.c9
+FETarjetaCredito/.idea/
+FETarjetaCredito/.devcontainer/*
+FETarjetaCredito/!.devcontainer/README.md
+FETarjetaCredito/!.devcontainer/recommended-devcontainer.json
+FETarjetaCredito/!.devcontainer/recommended-Dockerfile
+FETarjetaCredito/.settings/
+FETarjetaCredito/.vscode/launch.json
+FETarjetaCredito/.vscode/settings.json
+FETarjetaCredito/.vscode/tasks.json
+*.swo
+*.swp
+FETarjetaCredito/modules/.settings
+FETarjetaCredito/modules/.vscode
+FETarjetaCredito/.vimrc
+FETarjetaCredito/.nvimrc
+
+# Don't check in secret files
+FETarjetaCredito/*secret.js
+
+# Ignore npm/yarn debug log
+FETarjetaCredito/npm-debug.log
+FETarjetaCredito/yarn-error.log
+
+# build-analytics
+FETarjetaCredito/.build-analytics
+
+# rollup-test output
+FETarjetaCredito/modules/rollup-test/dist/
+
+# User specific bazel settings
+FETarjetaCredito/.bazelrc.user
+
+# User specific ng-dev settings
+FETarjetaCredito/.ng-dev.user*
+
+FETarjetaCredito/.notes.md
+FETarjetaCredito/baseline.json
+
+# Ignore .history for the xyz.local-history VSCode extension
+FETarjetaCredito/.history
+
+# CLDR data
+FETarjetaCredito/tools/gulp-tasks/cldr/cldr-data/
+
+# Husky
+FETarjetaCredito/.husky/_
